@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #C8A2C8;
+}
+
+.title-container{
+    width: 12%;
+    height: fit-content;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.title-container img{
+    width: 50px;
+    height: 50px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -moz-window-dragging: none;
+}
+
+.title-container h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.writing-space{
+    width: 60%;
+    height: 300px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    background: transparent;
+    resize: none;
+    outline: none;
+    padding: 5px;
+    padding-left: 6px;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    transition: .5s;
+}
+
+.writing-space:focus{
+    letter-spacing: 1px;
+}
+
+.writing-space::placeholder{
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.hidden{
+    opacity: 0%;
+    width: 0%;
+    height: 0%;
+    transition: .5s;
+}
+
+.res-container{
+    width: 60%;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    overflow: hidden;
+    overflow-x: auto;
+    margin-bottom: 100px;
+    transition: .5s;
+}
+
+.rhyme-res-btn{
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    height: 40px;
+    color: white;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    border-radius: 5px;
+    opacity: 75%;
+    transition: .5s;
+}
+
+.rhyme-res-btn:hover{
+    opacity: 100%;
+    border: 1px solid white;
+}
+
+.credits{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    opacity: 75%;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.credits a{
+    color: rgba(255, 255, 255, 0.74);
+    text-decoration: none;
+    transition: .5s;
+}
+
+.credits a:hover{
+    color: white;
+    opacity: 100%;
+}
