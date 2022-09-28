@@ -19,5 +19,5 @@ Helps you rhyme when making a poem, song, etc.
 <h3>Please consider:</h3>
 <ul>
   <li>Youtube:  <a style="color:red;" target="_Blank" href="https://www.youtube.com/channel/UCinBnZ2BKAbCKA1w9lmFd0w">Subscribe</a></li>
-  <li>Instagram:  <a style="color:#dc2ef0;" target="_Blank" href="https://www.instagram.com/nyc.geahad.codes/">Follow</a></li>
+  <li>Instagram:  <a style="color:#dc2ef0;" target="_Blank" href="https://www.instagram.com/gsrhackz/">Follow</a></li>
 </ul>
