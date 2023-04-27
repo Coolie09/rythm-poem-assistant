@@ -9,7 +9,7 @@ setInterval(()=>{
         let typing = document.createElement("h1");
         typing.innerText=".";
         typing.className="anim-typing-elem";
-        title.append(typing);
+        document.querySelectorAll(".title-container")[1].append(typing);
         set++;
     }
     else{
